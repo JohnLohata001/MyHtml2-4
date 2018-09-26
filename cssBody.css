@@ -1,0 +1,200 @@
+.class-Content-body{
+    width: 100%;
+    height: 250px;
+    font-size: 13px;
+    margin-top: 120px;
+    z-index: 100;
+   
+    
+}
+.class-Content-body Img{
+    width: 100%;
+
+}
+.imgContent{
+    border-bottom: black solid 4px;
+    background-size: cover;
+}
+.content-in-side{
+    width: 90%;
+    margin: auto;
+}
+.content-text{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 30%;
+    width: 95%;
+    margin: 0 auto;
+}
+.myBox1{
+    padding: 10px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    
+ 
+}
+.contentPhoto{
+    display: flex;
+    justify-content: space-between;
+    min-height: 500px;
+    width: 100%;
+    margin: auto;
+    text-align: justify;
+    
+    }
+.ImgPhoto{
+ min-height: 200px;
+    width: 30%;
+    padding: 10px;
+    z-index: -1;
+}
+.ImgPhoto img{
+    width: 55%;
+    height: 200px;
+    border-radius: 50%;
+    border:solid 2px green;
+    position: relative;
+    left: 60px;
+    flex-wrap: wrap;
+}
+h2, h1{
+    color:#149d6e;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+   
+}
+.myTitle h1{
+    text-align: center;
+    border-top: solid 5px rgb(0, 0, 0);
+    border-bottom: solid 1px #fff;
+    margin: auto;
+    color: #fcfcfc;
+    background: #149d6e;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+
+}
+
+.textAndPictireTitle{
+    min-height: 200px;
+    display: flex;
+    justify-content:space-around;
+    padding: 10px 0 10px 0; 
+    background: #149d6e;
+}
+.picTitle{
+    flex-basis: 24%;
+    /* border: solid 1px rgb(0, 48, 0); */
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+}
+.imgDiv{
+    padding: 0;
+    margin: 20px;
+    color: black;
+}
+
+.imgDiv img{
+    flex-basis: 100%;
+    background: #149d6e;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+   
+}
+/* The end of the body and the begining of the footer  */
+.myFooter{
+    min-height: 200px;
+    background: black;
+    border-top: solid 2px rgb(252, 253, 252);
+    padding: 10px;
+    
+    
+}
+.maim-footer{
+    width: 98%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    border-top: solid 1px rgb(252, 253, 252);
+    border-bottom: solid 1px rgb(252, 253, 252);
+    margin: auto;
+}
+.box-footer{
+    width: 30%;
+    min-height: 200px;
+    /* border: solid 1px white; */
+
+}
+.box-footer ul{
+    color: #fff;
+    display: block;
+    list-style: none;
+    margin-top: 20px;
+    /* text-decoration: underline; */
+      
+}
+ul li{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-decoration: none;
+}
+ul li a{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    text-decoration: none;
+
+}
+.box-footer img{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 10px;
+    padding-right:10px;
+    
+}
+
+/* End of footer */
+/* Media query */
+
+
+@media screen and (max-width:700px){
+ 
+    .content-text{
+        flex-direction: column;
+        justify-content: space-between;
+        flex-basis: 100%;
+        /* width: 95%;
+        margin: 0 auto; */
+    }
+    .contentPhoto{
+        flex-direction: column;
+    }
+    .ImgPhoto {
+        width: 100%;
+        text-align: justify;
+    }
+    .ImgPhoto img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border:solid 2px green;
+        position: relative;
+        left: 30%;;
+        flex-wrap: wrap;
+    }
+    .textAndPictireTitle{
+          flex-wrap: wrap;
+    }
+    .picTitle{
+        flex-basis: 45%;
+        margin: 5px;
+    }
+
+
+}
